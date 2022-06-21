@@ -20,12 +20,35 @@ Vignetting correction：
 Coming soon
 ``
 
-Official Website: **[TGU-UOW 2022](https://www.tgu-uow.com)**
+Official Website: **[TGU-UOW 2022](www.tgu-uow.com)**
 
 ## Usage
-### image stitching
+Note before use that the default image size is 384×384, use English file names and sort well (e.g. zhOD0001.jpg zhOD0002.jpg ...). <br>
+NerveStitcher is compatible with **.jpg**  **.png** **.tiff** format images. <br>
+We provide files to modify the file name and format, please refer to **img_rename.py**
 
+Make sure that only numbers are sorted when sorting. As in line 14 of **make\_img\_list.py**, the current sort is zhOD0001.jpg with the number 0001 (sorted from the fourth positive character to the middle of the fourth negative character), you can modify this sorting rule to match the name of your image. The same code also appears in **correction.py** line 191. <br>
 ### vignetting correction
+Please refer to **correction.py** , and modify the **path** and **savepath** parameters before use.
+
+There are two methods of vignetting correction: <br>
+1. Adaptive correction (**not recommended**)<br>
+This method will automatically calculate the vignetting parameters for each image, but it is slow and ineffective. If you want to use this method please uncomment line 163 and add comment line 164.<br>
+2. Automatic correction<br>
+This method uses fixed vignetting parameters, which have been verified by our tests to ensure the accuracy of the correction. First, refer to *data/reference.jpg* to specify the histogram of the original image, and then correct it according to the preset vignetting parameters (line 164).
+### image stitching
+Please refer to **stitching.py** , modify **input\_dir** (the address of the image data to be stitched), **input\_pairs\_path** (the address of the list of images to be stitched), **output\_viz\_dir** (the address where the final result is saved), **force\_cpu** (whether to force the CPU or GPU) before using.<br>
+The folder structure is based on the example file **data/test/stitch\_img OR stitch\_img2**, where the "match" folder holds the final stitching results and the "result" folder holds the results of each stitching.
+
+## Contact Us
+NerveStitcher can also be used to stitch other microscopy images. Some of the images we have successfully tested are: fundus vascular and thickness OCT images, fundus vascular images.
+
+For additional questions or discussions, Please contact email:
+
+liguangxu@tiangong.edu.cn
+
+litianyu@tiangong.edu.cn
+
 
 ## Copyright
 Do not use for commercial purposes without permission. <br>
