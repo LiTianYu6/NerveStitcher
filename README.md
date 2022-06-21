@@ -1,4 +1,5 @@
 <img src=data/lab_logo2.png width="35%" height="15%">
+
 # NerveStitcher: Corneal Confocal Microscope Images Stitching with Neural Networks
 
 ## Introduction
