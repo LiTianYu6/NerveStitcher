@@ -20,7 +20,7 @@ Vignetting correction：
 Coming soon
 ``
 
-Official Website: **[TGU-UOW 2022](www.tgu-uow.com)**
+Official Website: **[TGU-UOW 2022](https://www.tgu-uow.com)**
 
 ## Usage
 ### image stitching
