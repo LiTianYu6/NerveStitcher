@@ -13,7 +13,7 @@ NerveStitcher was developed by *Tianyu Li* of TGU-UOW Lab on the basis of [Super
 For more information, please read：<br>
 NerveStitcher：
 ``
-Tianyu Li, Guangxu Li, Fangting Li, and Chen Zhang. 2022. A SuperPoint-based Method for Automatic Stitching of Corneal Nerve Microscopy Images. In Proceedings of the 8th International Conference on Computing and Artificial Intelligence (ICCAI '22). Association for Computing Machinery, New York, NY, USA, 664–669. https://doi.org/10.1145/3532213.3532314
+Tianyu Li, Guangxu Li, Fangting Li, and Chen Zhang. 2022. A SuperPoint-based Method for Automatic Stitching of Corneal Nerve Microscopy Images. In Proceedings of the 8th International Conference on Computing and Artificial Intelligence (ICCAI '22). 664–669. https://doi.org/10.1145/3532213.3532314
 ``<br>
 Vignetting correction：
 ``
