@@ -20,7 +20,7 @@ Vignetting correction：
 Coming soon
 ``
 
-Official Website: **[TGU-UOW 2022](www.tgu-uow.com)**
+Official Website: **[TGU-UOW 2022](https://www.tgu-uow.com)**
 
 ## Usage
 Note before use that the default image size is 384×384, use English file names and sort well (e.g. zhOD0001.jpg zhOD0002.jpg ...). <br>
