@@ -13,11 +13,12 @@ NerveStitcher was developed by *Tianyu Li* of TGU-UOW Lab on the basis of [Super
 For more information, please read：<br>
 NerveStitcher：
 ``
-Tianyu Li, Guangxu Li, Fangting Li, and Chen Zhang. 2022. A SuperPoint-based Method for Automatic Stitching of Corneal Nerve Microscopy Images. In Proceedings of the 8th International Conference on Computing and Artificial Intelligence (ICCAI '22). 664–669. https://doi.org/10.1145/3532213.3532314
+Li G, Li T, Li F, et al. NerveStitcher: Corneal confocal microscope images stitching with neural networks[J]. Computers in Biology and Medicine, 2022: 106303.
+https://doi.org/10.1016/j.compbiomed.2022.106303
 ``<br>
 Vignetting correction：
 ``
-Coming soon
+LI Tianyu,LI Guangxu,ZHANG Chen,et al.Adaptive vignetting correction of corneal nerve microscopy images[J].Optics and Precision Engineering,2022,30(20):2479-2488. DOI： 10.37188/OPE.20223020.2479.
 ``
 
 Official Website: **[TGU-UOW 2022](https://www.tgu-uow.com)**
