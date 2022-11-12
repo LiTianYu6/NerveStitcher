@@ -15,7 +15,7 @@ NerveStitcher：
 ``
 Li G, Li T, Li F, et al. NerveStitcher: Corneal confocal microscope images stitching with neural networks[J]. Computers in Biology and Medicine, 2022: 106303.
 https://doi.org/10.1016/j.compbiomed.2022.106303
-``<br>
+``<br><br>
 Vignetting correction：
 ``
 LI Tianyu,LI Guangxu,ZHANG Chen,et al.Adaptive vignetting correction of corneal nerve microscopy images[J].Optics and Precision Engineering,2022,30(20):2479-2488. DOI： 10.37188/OPE.20223020.2479.
