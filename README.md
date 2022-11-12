@@ -54,16 +54,13 @@ litianyu@tiangong.edu.cn
 If you use any ideas from the paper or code from this repo, please consider citing:
 
 ```txt
-@inproceedings{10.1145/3532213.3532314,
-author = {Li, Tianyu and Li, Guangxu and Li, Fangting and Zhang, Chen},
-title = {A SuperPoint-Based Method for Automatic Stitching of Corneal Nerve Microscopy Images},
-year = {2022},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3532213.3532314},
-booktitle = {Proceedings of the 8th International Conference on Computing and Artificial Intelligence},
-pages = {664–669},
-numpages = {6},
-series = {ICCAI '22}
+@article{li2022nervestitcher,
+  title={NerveStitcher: Corneal confocal microscope images stitching with neural networks},
+  author={Li, Guangxu and Li, Tianyu and Li, Fangting and Zhang, Chen},
+  journal={Computers in Biology and Medicine},
+  pages={106303},
+  year={2022},
+  publisher={Elsevier}
 }
 ```
 
