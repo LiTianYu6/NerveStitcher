@@ -24,6 +24,8 @@ LI Tianyu,LI Guangxu,ZHANG Chen,et al.Adaptive vignetting correction of corneal 
 Official Website: **[TGU-UOW 2022](https://www.tgu-uow.com)**
 
 ## Usage
+Before running, you need to download the model file and replace it in **models/weights**, here is the link to download the weights: https://drive.google.com/drive/folders/1SgHwGcFwKbV6Bv7OgV1PbqCWmSJgx3jZ?usp=sharing
+
 Note before use that the default image size is 384×384, use English file names and sort well (e.g. zhOD0001.jpg zhOD0002.jpg ...). <br>
 NerveStitcher is compatible with **.jpg**  **.png** **.tiff** format images. <br>
 We provide files to modify the file name and format, please refer to **img_rename.py**
