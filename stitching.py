@@ -21,7 +21,7 @@ class stitcher:
         self.nms_radius = 4 # 4
         self.keypoint_threshold = 0.005  # SuperPoint检测特征点阈值 0.005
         self.max_keypoints = 1024 #1024
-        self.superglue = 'nerve'  # model工作模式
+        self.superglue = 'indoor'  # model工作模式
         self.sinkhorn_iterations = 100  # Sinkhorn算法迭代次数（实验部分！）
         self.match_threshold = 0.80  # SuperGlue匹配特征点阈值（实验部分！）
         self.resize = [-1, -1]  # -1为保留原图像尺寸
