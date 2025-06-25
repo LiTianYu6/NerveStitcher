@@ -50,7 +50,8 @@ For additional questions or discussions, Please contact email:
 
 liguangxu@tiangong.edu.cn
 
-litianyu@tiangong.edu.cn
+~~litianyu@tiangong.edu.cn~~ Not used since 2024.
+316877774@qq.com
 
 ## BibTeX Citation
 If you use any ideas from the paper or code from this repo, please consider citing:
